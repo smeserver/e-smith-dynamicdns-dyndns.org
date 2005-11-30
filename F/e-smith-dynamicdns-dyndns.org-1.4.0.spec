@@ -2,7 +2,7 @@ Summary: e-smith dynamic dns client to update dyndns.org
 %define name e-smith-dynamicdns-dyndns.org
 Name: %{name}
 %define version 1.4.0
-%define release 02
+%define release 03
 Version: %{version}
 Release: %{release}
 License: GPL
@@ -16,6 +16,9 @@ Requires: e-smith-base, e-smith-lib, e-smith >= 4.1
 AutoReqProv: no
 
 %changelog
+* Wed Nov 30 2005 Gordon Rowell <gordonr@gormand.com.au> 1.4.0-03
+- Bump release number only
+
 * Wed May 18 2005 Charlie Brady <charlieb@e-smith.com>
 - [1.4.0-02]
 - Add support for "custom", i.e. domain not matching
