@@ -1,8 +1,10 @@
+# $Id: e-smith-dynamicdns-dyndns.org.spec,v 1.2 2008/10/07 18:07:49 slords Exp $
+
 Summary: e-smith dynamic dns client to update dyndns.org
 %define name e-smith-dynamicdns-dyndns.org
 Name: %{name}
-%define version 1.4.0
-%define release 4
+%define version 2.2.0
+%define release 1
 Version: %{version}
 Release: %{release}%{?dist}
 License: GPL
@@ -15,6 +17,9 @@ Requires: e-smith-base, e-smith-lib, e-smith >= 4.1
 AutoReqProv: no
 
 %changelog
+* Tue Oct 7 2008 Shad L. Lords <slords@mail.com> 2.2.0-1.sme
+- Roll new stream to separate sme7/sme8 trees [SME: 4633]
+
 * Sun Apr 29 2007 Shad L. Lords <slords@mail.com>
 - Clean up spec so package can be built by koji/plague
 
